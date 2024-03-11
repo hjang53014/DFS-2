@@ -1,0 +1,25 @@
+.red-circle {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    top: -20px; 
+    left: -20px; 
+   
+  }
+
+  p {
+    text-indent: 25px; /* Indents the first line of a paragraph */
+  }
+
+.text{
+  font-family: 'Lora', serif;
+  display: flex;
+}
+
+.column1, .column2 {
+    flex: 1; /* This makes each column take up an equal amount of space */
+    padding: 10px; /* Adds some spacing around the text inside the columns */
+  }
+
